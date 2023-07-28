@@ -1,2 +1,17 @@
-GET https://chrissho97-improved-succotash-9pg76w7qx6p27rp6-8080.preview.app.github.dev/
+@server = https://chrissho97-improved-succotash-9pg76w7qx6p27rp6-8080.preview.app.github.dev
+
+###
+GET {{server}}
+
+###
+GET {{server}}/instrumentos
+
+###
+POST {{server}}/instrumentos
+Content-Type: application/json
+
+{"nombre": "Piano"}
+
+
+
 
