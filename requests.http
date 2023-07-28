@@ -12,6 +12,23 @@ Content-Type: application/json
 
 {"nombre": "Piano"}
 
+###
+
+###
+GET {{server}}/categorias
+###
+
+###
+POST {{server}}/categorias
+Content-Type: application/json
+
+{"nombre": "Cordofonos"}
+
+###
+GET {{server}}/categorias/2/instrumentos
+
+###
+GET {{server}}/instrumentos?size=2&page=1&sort=categorias,desc
 
 
 
